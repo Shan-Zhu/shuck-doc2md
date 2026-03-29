@@ -72,7 +72,7 @@ pip install python-docx pdfplumber PyMuPDF
 
 双击 `uninstall_menu.reg` 即可移除右键菜单。
 
-## ��用方法
+## 使用方法
 
 ### 右键菜单（推荐）
 
