@@ -6,7 +6,7 @@
 
 一个轻量级的 Windows 右键菜单工具，将 **Word (.docx)** 和 **PDF** 文件转换为 **Markdown**，并自动提取图片。
 
-在 Windows 资源管理器中右键点击任意 `.docx` 或 `.pdf` 文件 → **"To Markdown"** → 即可在原文件旁生成 `.md` 文件和图片文件夹。
+在 Windows 中右键点击任意 `.docx` 或 `.pdf` 文件 → **"To Markdown"** → 即可在原文件旁生成 `.md` 文件和图片文件夹。
 
 ## 功能特性
 
