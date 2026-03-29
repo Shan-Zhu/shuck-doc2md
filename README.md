@@ -1,5 +1,9 @@
 # shuck-doc2md
 
+<p align="center">
+  <b>English</b> | <a href="README_CN.md">中文</a>
+</p>
+
 A lightweight Windows right-click tool that converts **Word (.docx)** and **PDF** files to **Markdown**, with full image extraction.
 
 Right-click any `.docx` or `.pdf` file in Windows Explorer → **"To Markdown"** → get a clean `.md` file with images saved alongside.
