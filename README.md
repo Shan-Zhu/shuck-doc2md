@@ -6,7 +6,7 @@
 
 A lightweight Windows right-click tool that converts **Word (.docx)** and **PDF** files to **Markdown**, with full image extraction.
 
-Right-click any `.docx` or `.pdf` file in Windows Explorer → **"To Markdown"** → get a clean `.md` file with images saved alongside.
+Right-click any `.docx` or `.pdf` file in Windows → **"To Markdown"** → get a clean `.md` file with images saved alongside.
 
 ## Features
 
