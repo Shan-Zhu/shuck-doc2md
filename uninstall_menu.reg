@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; ── 移除 .docx 右键菜单 ──
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.docx\shell\Doc2MD]
+
+; ── 移除 .pdf 右键菜单 ──
+[-HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pdf\shell\Doc2MD]

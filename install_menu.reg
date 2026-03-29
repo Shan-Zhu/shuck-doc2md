@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; ── .docx 右键菜单 ──
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.docx\shell\Doc2MD]
+@="To Markdown"
+"Icon"="C:\\Python314\\pythonw.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.docx\shell\Doc2MD\command]
+@="\"C:\\Python314\\pythonw.exe\" \"D:\\Tools\\doc2md\\convert.py\" \"%1\""
+
+; ── .pdf 右键菜单 ──
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pdf\shell\Doc2MD]
+@="To Markdown"
+"Icon"="C:\\Python314\\pythonw.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pdf\shell\Doc2MD\command]
+@="\"C:\\Python314\\pythonw.exe\" \"D:\\Tools\\doc2md\\convert.py\" \"%1\""
