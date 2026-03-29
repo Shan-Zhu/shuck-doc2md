@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+; ── Doc2MD 右键菜单 (EXE版) ──
+; 使用前请先运行 setup.bat 自动配置路径
+
+; ── .docx 右键菜单 ──
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.docx\shell\Doc2MD]
+@="To Markdown"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.docx\shell\Doc2MD\command]
+@="\"__EXE_PATH__\" \"%1\""
+
+; ── .pdf 右键菜单 ──
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pdf\shell\Doc2MD]
+@="To Markdown"
+
+[HKEY_CURRENT_USER\Software\Classes\SystemFileAssociations\.pdf\shell\Doc2MD\command]
+@="\"__EXE_PATH__\" \"%1\""
