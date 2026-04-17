@@ -45,7 +45,7 @@ reg import "%REG_FILE%" >nul 2>&1
 if %errorlevel% equ 0 (
     echo [成功] 右键菜单已安装！
     echo.
-    echo ��在你可以右键点击 .docx 或 .pdf 文件，
+    echo 现在你可以右键点击 .docx 或 .pdf 文件，
     echo 选择 "To Markdown" 进行转换。
 ) else (
     echo [错误] 注册表导入失败，请右键以管理员身份运行。

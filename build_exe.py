@@ -42,6 +42,14 @@ for reg in ("install_menu_exe.reg", "uninstall_menu.reg"):
     if src.exists():
         shutil.copy2(src, DIST / reg)
 
+# Copy bat files into dist/ and ensure CRLF line endings
+for bat in ("setup.bat", "uninstall.bat"):
+    src = ROOT / bat
+    if src.exists():
+        content = src.read_text(encoding="utf-8")
+        content = content.replace("\r\n", "\n").replace("\n", "\r\n")
+        (DIST / bat).write_text(content, encoding="utf-8")
+
 # Copy README
 for f in ("README.md", "README_CN.md"):
     src = ROOT / f
